@@ -1,0 +1,17 @@
+{
+  "name": "campjs",
+  "version": "5.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "make start"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "ISC",
+  "browserify": {},
+  "devDependencies": {
+    "http-server": "^0.7.5",
+    "myth": "^1.3.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,292 @@
+@font-face {
+  font-family: 'SG1212';
+  src: url("/fonts/sg12-webfont.eot");
+  src: url("/fonts/sg12-webfont.eot?#iefix") format('embedded-opentype'), url("/fonts/sg12-webfont.woff") format('woff'), url("/fonts/sg12-webfont.ttf") format('truetype'), url("/fonts/sg12-webfont.svg#SG1212") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  src: url('/fonts/fantasquesansmono-regular-webfont.eot');
+  src: url('/fonts/fantasquesansmono-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/fantasquesansmono-regular-webfont.woff2') format('woff2'),
+         url('/fonts/fantasquesansmono-regular-webfont.woff') format('woff'),
+         url('/fonts/fantasquesansmono-regular-webfont.ttf') format('truetype'),
+         url('/fonts/fantasquesansmono-regular-webfont.svg#fantasque_sans_monoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background: #423934;
+  font-size: 1.2em;
+  font-family: 'Fantasque Sans Mono', helvetica;
+  color: #40362d;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: #12bf00;
+  font-weight: bolder;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+header#mainHeader {
+  display: block;
+  height: 1000px;
+  max-height: 100vh;
+  width: 100%;
+  background: url('/images/header.svg') no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  text-align: center;
+}
+
+#mainHeader #headerContent {
+  width: 800px;
+  position: relative;
+  left: 50%;
+  top: 80px;
+  transform: translate(-50%, 0%);
+}
+
+#headerContent h1 {
+  display: inline-block;
+  font-size: 5rem;
+  margin: 0;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid #40362d;
+}
+
+#headerContent h2 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+#headerContent .button {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+#mainHeader + * {
+  margin-top: -80px;
+}
+
+.content {
+  margin-top: 40px;
+  width: 800px;
+  background: #f7f7e9;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  box-sizing: border-box;
+}
+
+body:not(#home) #mainHeader {
+  margin-top: -40vh;
+  position: absolute;
+}
+body:not(#home) .content {
+  margin-top: 30vh;
+}
+
+.content section {
+  padding: 30px 60px;
+  padding-top: 0px;
+}
+
+.content section:first-of-type {
+  padding-top: 60px;
+}
+
+#promo {
+  padding-top: 0px;
+}
+
+.content p, .content li {
+  font-size: 0.9em;
+}
+
+.content nav {
+  width: 100%;
+  display: flex;
+}
+
+.content nav a {
+  flex: auto;
+  text-align: center;
+  padding: 1em;
+  background: #e4e4d7;
+  color: #40362d;
+  font-weight: bold;
+}
+
+.content nav a:hover {
+  background: #f7f7e9;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: 'SG1212', helvetica;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  display: inline-block;
+  background: #ff6040;
+  padding: .25em 1em;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: -webkit-transform 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+h1 a, h2 a, h3 a, h4 a {
+  text-decoration: none;
+  color: #40362d;
+}
+
+.content img {
+  max-width: 70%;
+}
+
+.content iframe {
+  margin-bottom: 1em;
+}
+
+
+.content footer nav {
+  display: flex;
+}
+
+.content footer nav a {
+  flex: auto;
+}
+
+@media screen and (max-width: 850px) {
+  header#mainHeader, .content {
+    width: 100%;
+  }
+
+  #headerContent h1 {
+    font-size: 3.5rem;
+  }
+
+  .content img {
+    max-width: 100%;
+  }
+}
+
+.content iframe {
+  margin: 0 auto;
+  margin-top: 3em;
+  display: block;
+}
+
+article {
+  margin-top: 1em;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+.mentor-thumb {
+  max-width: 160px;
+  max-height: 160px;
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border-radius: 100px;
+}
+
+.mentor {
+  clear: both;
+}
+
+.activities h2 {
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+.activities-preview li {
+  list-style-type: none;
+  display: inline;
+}
+.activities-preview li:after {
+  display: inline;
+  content: ', ';
+}
+
+.logogroup {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 25%;
+  margin: 0 1rem 5px;
+  overflow: hidden;
+}
+
+.logogroup.large .logo {
+  width: 40%;
+}
+
+.logogroup.medium .logo {
+  width: 30%;
+}
+
+.logo img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.logo.nicta {
+  height: 5rem;
+  background: white;
+  border-radius: 0.5rem;
+}
+
+.logogroup.medium .logo.zendesk {
+  height: 5rem;
+  width: 5rem;
+}
+
+.logo.prismatik {
+  background: black;
+  border-radius: 4px;
+}
+
