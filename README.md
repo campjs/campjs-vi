@@ -30,6 +30,8 @@ Listed below are talk submissions that have been collected so far.  These sugges
 
 [![Feature Requests](http://feathub.com/campjs/campjs-vi?format=svg)](http://feathub.com/campjs/campjs-vi)
 
+To vote, simply click on the SVG image above and you will be taken to [feathub](http://feathub.com/campjs/campjs-vi) where you will be able to login with your Github profile and vote!
+
 ### Submitting a Talk
 
 To assist us with knowing who you are, but presenting the topic anonymously please submit via [the submission form](http://goo.gl/forms/3xensRuz2u).
