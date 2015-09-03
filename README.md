@@ -18,10 +18,9 @@ Expressions of interest should be voiced in each of the issues that are linked a
 
 Also, feel free to create an issue to discuss anything.
 
-
 ## CampJS VI Talk Submissions
 
-This is a repository that lists a number of suggestions that have been anonymised as best we can to work through a process of open voting.  One thing to note is that we aren't trying to fill a particular number of slots, so it's not really a "get enough votes" get to present kind of system, more just a tool to help people us get a feel for whether:
+Listed below are talk submissions that have been collected so far.  These suggestions have been anonymised as best we can so we as a community can work through a process of open voting.  One thing to note is that we aren't trying to fill a particular number of slots, so it's not really a "get enough votes" get to present kind of system, more just a tool to help people us get a feel for whether:
 
 1. There is sufficient interest in a topic for it to happen - this is probably most useful to the person who proposed the talk.
 
