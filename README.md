@@ -26,6 +26,8 @@ Listed below are talk submissions that have been collected so far.  These sugges
 
 2. How big a space we may need to facilitate the session.  Koonjewarre has a lot of really usable spaces, so even if a talk has a few people interested, but could happen almost anywhere, we should work to making that happen.
 
+__NOTE:__ Some of the speakers that have proposed the talks here might require financial assistance to be able to make the event.  We definitely have _some_ budget for this and will do our best to make sure that we can assist people in getting to the event to present their talk, but unfortunately we can't promise that all of these will happen.  If you have any questions on this feel free to get in touch (damon@campjs.com).
+
 ### Current Talks open for "Voting"
 
 [![Feature Requests](http://feathub.com/campjs/campjs-vi?format=svg)](http://feathub.com/campjs/campjs-vi)
