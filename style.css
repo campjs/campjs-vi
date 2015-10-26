@@ -1,0 +1,229 @@
+nav {
+	margin: 1em 2em;
+}
+
+nav li {
+	list-style: none;
+	margin-bottom: 0.5em;
+}
+
+.header-background {
+	display: none;
+}
+
+@media screen and (min-width: 768px) and (min-device-width: 768px) {
+	nav {
+		position: absolute;
+		margin: 2em 0 0 20px;
+	}
+
+	.header-background {
+		width: 100%;
+		height: 300px;
+		display: inherit;
+		background: url(src/images/header-bg.svg);
+		background-size: 800px;
+		background-position: -347px -200px;
+		background-repeat: no-repeat;
+		-webkit-user-select: none;
+		   -moz-user-select: none;
+		    -ms-user-select: none;
+		        user-select: none;
+		z-index: -1;
+	}
+
+	.header-background .decorations > * {
+		position: absolute;
+	}
+
+	.header-tree {
+		left: 30px;
+		top: 30px;
+	}
+
+	.logo {
+		width: 300px;
+		padding: 40px 0 0 30px;
+	}
+
+	.isologo {
+		width: 100%;
+	}
+
+	.isologo .lettering {
+		fill: #f7f7e9;
+		-webkit-transition: fill ease-in-out 0.2s;
+		        transition: fill ease-in-out 0.2s;
+	}
+
+/*	.isologo .lettering:hover {
+		fill: #aad400;
+	}
+*/
+	.isologo .lettering-shadow-top {
+		fill: #483e37;
+	}
+
+	.isologo .lettering-shadow-right {
+		fill: #6c5d53;
+	}
+}
+footer {
+	background: #40362d;
+	color: #f7f7e9;
+	padding: 0.5em 2em 2em;
+}
+
+footer h2 {
+	margin: 1em 0;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+@media screen and (min-width: 768px) and (min-device-width: 768px) {
+	footer {
+		margin-left: 11em;
+		margin-right: 5em;
+		border-radius: 1em 1em 0 0;
+	}
+}
+.h-event {
+	margin: 1em 2em;
+}
+
+.h-event h2 {
+	font-family: 'SG1212', helvetica;
+	text-transform: uppercase;	
+	margin-bottom: 10px;
+}
+
+.h-event > * {
+	margin: 0;
+}
+
+@media screen and (min-width: 768px) and (min-device-width: 768px) {
+	.h-event {
+		position: absolute;
+		right: 0;
+		text-align: right;
+		z-index: 100;
+		top: 0;
+		right: 0;
+		margin: 80px 5em 0 0;
+	}
+}
+.content {
+	margin: 1em 2em 4em 2em;;
+}
+
+.content p {
+	text-align: justify;
+}
+
+.content img {
+	max-width: 100%;
+}
+
+@media screen and (min-width: 768px) and (min-device-width: 768px) {
+	.content {
+		margin: 0 5em 4em 11em;
+	}
+
+	.content h1,
+	.content h2 {
+		font-size: 1.5em;
+	}
+}
+footer > svg {
+	max-height: 400px;
+}
+
+footer .bg-hex {
+	fill: #f7f7e9;
+	opacity: 0.6;
+	-webkit-transition: opacity ease-in-out 0.2s;
+	        transition: opacity ease-in-out 0.2s;
+}
+
+footer a:hover .bg-hex {
+	opacity: 1.0;
+}
+ul.sessionlist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li.session {
+	border-bottom: 1px solid #efefef;
+}
+
+ul.speakers {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0.5em 2em;
+}
+
+ul.speaker-names {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	list-style: none;
+	padding: 0;
+	font-size: 0.85em;
+}
+
+ul.speaker-names > li {
+	margin-right: 10px;
+}
+
+ul.speakers img {
+}
+
+@font-face {
+	font-family: 'SG1212';
+	src: url("/fonts/sg12-webfont.eot");
+	src: url("/fonts/sg12-webfont.eot?#iefix") format('embedded-opentype'), url("/fonts/sg12-webfont.woff") format('woff'), url("/fonts/sg12-webfont.ttf") format('truetype'), url("/fonts/sg12-webfont.svg#SG1212") format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fantasque Sans Mono';
+	src: url('/fonts/fantasquesansmono-regular-webfont.eot');
+	src: url('/fonts/fantasquesansmono-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/fantasquesansmono-regular-webfont.woff2') format('woff2'),
+		url('/fonts/fantasquesansmono-regular-webfont.woff') format('woff'),
+		url('/fonts/fantasquesansmono-regular-webfont.ttf') format('truetype'),
+		url('/fonts/fantasquesansmono-regular-webfont.svg#fantasque_sans_monoregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f7f7e9;
+	font-size: 1.2em;
+	font-family: 'Fantasque Sans Mono', helvetica;
+	color: #40362d;
+	font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #7aab36;
+	font-weight: bolder;
+}

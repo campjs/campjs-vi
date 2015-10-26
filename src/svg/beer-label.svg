@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="56mm"
+   height="80mm"
+   viewBox="0 0 198.4252 283.46457"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="beer-label.svg"
+   inkscape:export-filename="/home/damo/code/campjs/campjs-vi/src/svg/beer-label.png"
+   inkscape:export-xdpi="400.04999"
+   inkscape:export-ydpi="400.04999">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.1527669"
+     inkscape:cx="46.566383"
+     inkscape:cy="124.75861"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1532"
+     inkscape:window-height="1030"
+     inkscape:window-x="0"
+     inkscape:window-y="48"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="label-background"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#eef4d7;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4552"
+       width="198.4252"
+       height="283.46457"
+       x="-2.282811e-06"
+       y="-0.16772647" />
+  </g>
+  <g
+     inkscape:label="background"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-768.89764)"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="text"
+     style="display:inline">
+    <g
+       id="g4261"
+       transform="matrix(1.2377211,0,0,1.2377211,6.1618179,-4.6014749)">
+      <g
+         transform="scale(1.0000052,0.99999481)"
+         style="font-style:normal;font-weight:normal;font-size:26.7066288px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#454837;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="text4155">
+        <path
+           d="m 17.716444,45.034062 0,-16.026586 2.673271,0 0,-2.66023 10.680043,0 0,2.66023 2.673271,0 0,5.346542 -5.346542,0 0,-2.673271 -5.333501,0 0,10.680044 5.333501,0 0,-2.660231 5.346542,0 0,5.333502 -2.673271,0 0,2.673271 -10.680043,0 0,-2.673271 -2.673271,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:SG12;-inkscape-font-specification:SG12;fill:#454837;fill-opacity:1"
+           id="path4365"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 36.442381,47.707333 0,-18.699857 2.673271,0 0,-2.66023 10.680043,0 0,2.66023 2.673271,0 0,18.699857 -5.346542,0 0,-5.346542 -5.333501,0 0,5.346542 -5.346542,0 z m 5.346542,-10.680044 5.333501,0 0,-5.346542 -5.333501,0 0,5.346542 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:SG12;-inkscape-font-specification:SG12;fill:#454837;fill-opacity:1"
+           id="path4367"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 55.168318,47.707333 0,-21.360087 18.699856,0 0,2.66023 2.660231,0 0,18.699857 -5.333502,0 0,-16.026586 -2.673271,0 0,16.026586 -5.346542,0 0,-16.026586 -2.66023,0 0,16.026586 -5.346542,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:SG12;-inkscape-font-specification:SG12;fill:#454837;fill-opacity:1"
+           id="path4369"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 79.214716,47.707333 0,-21.360087 13.353314,0 0,2.66023 2.673271,0 0,10.693084 -2.673271,0 0,2.660231 -8.006772,0 0,5.346542 -5.346542,0 z m 5.346542,-10.680044 5.333501,0 0,-5.346542 -5.333501,0 0,5.346542 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:SG12;-inkscape-font-specification:SG12;fill:#454837;fill-opacity:1"
+           id="path4371"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 97.888487,45.034062 0,-8.006773 5.346543,0 0,5.333502 5.3335,0 0,-16.013545 5.34654,0 0,18.686816 -2.67327,0 0,2.673271 -10.68004,0 0,-2.673271 -2.673273,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:SG12;-inkscape-font-specification:SG12;fill:#454837;fill-opacity:1"
+           id="path4373"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 116.61442,47.707333 0,-5.346542 10.68005,0 0,-2.660231 -8.00678,0 0,-2.673271 -2.67327,0 0,-8.019813 2.67327,0 0,-2.66023 13.35332,0 0,5.333501 -10.68004,0 0,2.673271 8.00677,0 0,2.673271 2.67327,0 0,8.006773 -2.67327,0 0,2.673271 -13.35332,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:SG12;-inkscape-font-specification:SG12;fill:#454837;fill-opacity:1"
+           id="path4375"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="g4181"
+       transform="translate(-11.346828,8.8258508)"
+       style="fill:#454837;fill-opacity:1">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.28570795px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#454837;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="104.4256"
+         y="255.07567"
+         id="text4293"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4295"
+           x="104.4256"
+           y="255.07567"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono';fill:#454837;fill-opacity:1">responsibly</tspan></text>
+      <g
+         id="g4317"
+         transform="matrix(0.85398987,0,0,0.85398987,-82.934462,65.543674)"
+         style="fill:#454837;fill-opacity:1">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:18.87904167px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#454837;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="201.00394"
+           y="220.31599"
+           id="text4327"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4329"
+             x="201.00394"
+             y="220.31599"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono';fill:#454837;fill-opacity:1">🙌 </tspan></text>
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4464"
+         y="255.07567"
+         x="60.003792"
+         style="font-style:normal;font-weight:normal;font-size:5.72107458px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#454837;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono';fill:#454837;fill-opacity:1"
+           y="255.07567"
+           x="60.003792"
+           id="tspan4466"
+           sodipodi:role="line">enjoy</tspan></text>
+    </g>
+    <g
+       id="g4213"
+       transform="translate(0,6.967777)">
+      <rect
+         ry="3.5433071"
+         rx="3.5433071"
+         y="843.01599"
+         x="18.537926"
+         height="151.71733"
+         width="161.34933"
+         id="rect4259"
+         style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#cbd0b9;stroke-width:1.64277339;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="translate(0,-768.89764)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:15.19048405px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#cbd0b9;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="157.60728"
+         y="94.179382"
+         id="text4456"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4458"
+           x="157.60728"
+           y="94.179382"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono';fill:#cbd0b9;fill-opacity:1">✍ </tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.30754995px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#454837;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="56.98732"
+       y="63.763832"
+       id="text4293-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4295-3"
+         x="56.98732"
+         y="63.763832"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.44383812px;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono';fill:#454837;fill-opacity:1;">premium alcoholic beverage</tspan></text>
+  </g>
+</svg>

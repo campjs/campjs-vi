@@ -1,0 +1,13 @@
+footer > svg {
+	max-height: 400px;
+}
+
+footer .bg-hex {
+	fill: #f7f7e9;
+	opacity: 0.6;
+	transition: opacity ease-in-out 0.2s;
+}
+
+footer a:hover .bg-hex {
+	opacity: 1.0;
+}

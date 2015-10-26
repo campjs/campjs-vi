@@ -1,17 +1,30 @@
 {
-  "name": "campjs",
-  "version": "6.0.0",
-  "description": "",
+  "name": "campjs-vi",
+  "version": "1.0.0",
+  "description": "CampJS VI site",
   "main": "index.js",
   "scripts": {
-    "start": "make start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/campjs/campjs-vi.git"
+  },
+  "keywords": [
+    "campjs"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
   "license": "ISC",
-  "browserify": {},
-  "devDependencies": {
-    "http-server": "^0.7.5",
-    "myth": "^1.3.0"
+  "bugs": {
+    "url": "https://github.com/campjs/campjs-vi/issues"
   },
-  "dependencies": {}
+  "homepage": "https://github.com/campjs/campjs-vi#readme",
+  "devDependencies": {
+    "JSONStream": "^1.0.6",
+    "cssnext": "^1.8.4",
+    "jade": "^1.11.0",
+    "jade-cli": "^0.1.1",
+    "jstransformer-markdown-it": "^0.1.0",
+    "svgo": "^0.5.6"
+  }
 }

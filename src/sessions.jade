@@ -1,0 +1,30 @@
+extends includes/layout.jade
+
+block content
+	h1 Sessions
+
+	p
+	| Listed below are sessions that sessions that have been scheduled for CampJS VI. 
+	| You can also view in lanyrd's fancy grid view #[a(href="http://lanyrd.com/2015/campjsnews/schedule/?day=nov-21&view=grid", target="_blank") here].
+
+	each group in data.sessions
+		h2= group.day
+		ul.sessionlist
+			each session in group.sessions
+				if session.abstract
+					li.session
+						ul.speakers
+							each speaker in session.speakers
+								li.speaker
+									a(href="https://twitter.com/#{speaker.twitter.slice(1)}")
+										img(src="#{speaker.image_75}", title="#{speaker.name}")
+
+						h3.session-title= session.title
+						ul.speaker-names
+							each speaker in session.speakers
+								li #[a(href="https://twitter.com/#{speaker.twitter.slice(1)}")= speaker.name]
+
+						p !{session.abstract}
+
+
+	// iframe(width="100%" height="400" src="https://www.youtube.com/embed/xHy0wXHAeg8" frameborder="0" allowfullscreen)

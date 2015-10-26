@@ -1,0 +1,6 @@
+plugins:
+  - cleanupIDs: true
+  - removeAttrs:
+      attrs:
+        - '*:fill'
+        - '*:fill-rule'

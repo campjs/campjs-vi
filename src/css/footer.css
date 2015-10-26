@@ -1,0 +1,19 @@
+footer {
+	background: #40362d;
+	color: #f7f7e9;
+	padding: 0.5em 2em 2em;
+}
+
+footer h2 {
+	margin: 1em 0;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+@media screen and (min-width: 768px) and (min-device-width: 768px) {
+	footer {
+		margin-left: 11em;
+		margin-right: 5em;
+		border-radius: 1em 1em 0 0;
+	}
+}

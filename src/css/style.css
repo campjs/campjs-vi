@@ -1,0 +1,48 @@
+@import './header.css';
+@import './footer.css';
+@import './event-data.css';
+@import './content.css';
+@import './sponsors.css';
+@import './sessions.css';
+
+@font-face {
+	font-family: 'SG1212';
+	src: url("/fonts/sg12-webfont.eot");
+	src: url("/fonts/sg12-webfont.eot?#iefix") format('embedded-opentype'), url("/fonts/sg12-webfont.woff") format('woff'), url("/fonts/sg12-webfont.ttf") format('truetype'), url("/fonts/sg12-webfont.svg#SG1212") format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fantasque Sans Mono';
+	src: url('/fonts/fantasquesansmono-regular-webfont.eot');
+	src: url('/fonts/fantasquesansmono-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/fantasquesansmono-regular-webfont.woff2') format('woff2'),
+		url('/fonts/fantasquesansmono-regular-webfont.woff') format('woff'),
+		url('/fonts/fantasquesansmono-regular-webfont.ttf') format('truetype'),
+		url('/fonts/fantasquesansmono-regular-webfont.svg#fantasque_sans_monoregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f7f7e9;
+	font-size: 1.2em;
+	font-family: 'Fantasque Sans Mono', helvetica;
+	color: #40362d;
+	font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #7aab36;
+	font-weight: bolder;
+}

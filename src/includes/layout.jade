@@ -1,0 +1,40 @@
+doctype html
+html(lang="en")
+	head
+		title= pageTitle
+		meta(charset='utf-8')
+		link(rel="stylesheet", href="style.css")
+		block head
+
+	body
+		header
+			div.header-background
+				div.decorations
+					include ../images/tree-2.svg
+
+				div.logo
+					a(href="/")
+						include ../images/isologo.svg
+			div.h-event
+				h2.p-name CampJS VI
+				p Nov #[time(datetime="2015-11-20 15:00:00").dt-start= 20] - #[time(datetime="2015-11-23 10:00:00").dt-end= 23] 2015
+				p.p-location
+					a(href="https://www.google.com.au/maps/place/Koonjewarre+Retreat+Centre/@-28.238179,153.2703955,1248a,20y,41.22t/data=!3m1!1e3!4m2!3m1!1s0x6b90e6c1b0d34a3d:0xb1b3c5350f23cbd2!6m1!1e1?hl=en") Springbrook, Queensland, Australia
+
+			nav
+				li #[a(href="/") Home]
+				li #[a(href="/sessions.html") Sessions]
+				li #[a(href="/code-of-conduct.html") Code of Conduct]
+				li #[a(href="/transport.html") Transport]
+
+		div.content
+			block content
+
+		footer.sponsors
+			h2 CampJS VI made possible by:
+			include ../images/sponsors.svg
+
+		// script(src="//platform.twitter.com/widgets.js" charset="utf-8" async)
+
+
+
