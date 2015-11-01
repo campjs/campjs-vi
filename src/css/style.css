@@ -27,7 +27,7 @@
 
 html,
 body {
-	height: 100%;
+	min-height: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -35,14 +35,34 @@ body {
 body {
 	background: #f7f7e9;
 	font-size: 1.2em;
-	font-family: 'Fantasque Sans Mono', helvetica;
+	font-family: 'Crimson Text', serif;
 	color: #40362d;
-	font-smoothing: antialiased;
-	overflow-x: hidden;
+	max-width: 1200px;
+	position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Fantasque Sans Mono', sans-serif;
 }
 
 a {
 	text-decoration: none;
 	color: #7aab36;
 	font-weight: bolder;
+}
+
+@media screen and (min-width: 1210px) and (min-device-width: 1210px) {
+	html {
+		background-color: #EFF4EF;
+	}
+
+	body {
+		box-shadow: 0 0 5px rgba(0,0,0,0.2);
+		margin: 0 auto;
+	}
 }

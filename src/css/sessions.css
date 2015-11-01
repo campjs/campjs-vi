@@ -21,6 +21,7 @@ ul.speaker-names {
 	list-style: none;
 	padding: 0;
 	font-size: 0.85em;
+	font-family: 'Fantasque Sans Mono', sans-serif;
 }
 
 ul.speaker-names > li {
