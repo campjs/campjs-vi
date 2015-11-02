@@ -39,7 +39,8 @@ $(svgs): prepare
 	@echo "built $@"
 
 clean: clean_images clean_css clean_pages
-	rm -rf pagedata/
+	@rm -rf pagedata/
+	@rm sessions.json
 
 clean_images:
 	@rm -rf images/
