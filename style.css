@@ -189,6 +189,10 @@ ul.speaker-names > li {
 ul.speakers img {
 }
 
+a.session-title {
+	color: currentColor;
+}
+
 @font-face {
 	font-family: 'SG1212';
 	src: url("/fonts/sg12-webfont.eot");

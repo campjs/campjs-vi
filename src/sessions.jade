@@ -21,7 +21,8 @@ block content
 									a(href="https://twitter.com/#{speaker.twitter.slice(1)}")
 										img(src="#{speaker.image_75}", title="#{speaker.name}")
 
-						h3.session-title= session.title
+						a(name="#{session.id}")
+						a(class="session-title",href="##{session.id}") #[h3.session-title= session.title]
 						ul.speaker-names
 							each speaker in session.speakers
 								li #[a(href="https://twitter.com/#{speaker.twitter.slice(1)}")= speaker.name]

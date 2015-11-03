@@ -30,3 +30,7 @@ ul.speaker-names > li {
 
 ul.speakers img {
 }
+
+a.session-title {
+	color: currentColor;
+}
