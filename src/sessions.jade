@@ -18,14 +18,20 @@ block content
 						ul.speakers
 							each speaker in session.speakers
 								li.speaker
-									a(href="https://twitter.com/#{speaker.twitter.slice(1)}")
+									if speaker.twitter
+										a(href="https://twitter.com/#{speaker.twitter.slice(1)}")
+											img(src="#{speaker.image_75}", title="#{speaker.name}")
+									else
 										img(src="#{speaker.image_75}", title="#{speaker.name}")
 
 						a(name="#{session.id}")
 						a(class="session-title",href="##{session.id}") #[h3.session-title= session.title]
 						ul.speaker-names
 							each speaker in session.speakers
-								li #[a(href="https://twitter.com/#{speaker.twitter.slice(1)}")= speaker.name]
+								if speaker.twitter
+									li #[a(href="https://twitter.com/#{speaker.twitter.slice(1)}")= speaker.name]
+								else
+									li= speaker.name
 
 						p !{session.abstract}
 
