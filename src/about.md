@@ -11,3 +11,20 @@ CampJS VI will commence at 3pm Friday on the 20th of November, and run through t
 [![](https://pbs.twimg.com/media/B1ZlyK7CcAAsD0O.jpg:large)](https://twitter.com/wa7son/status/528722096809971712)
 
 The venue provides food, drink and comfortable accommodation for the duration of the event. You may camp on the grounds if that is your wish.
+
+### What to bring?
+
+- Earplugs
+- Warm Clothes
+- Sleeping Bag + Pillow
+- Beer / Cider / Wine (see [How to BYO](how-to-byo.html))
+- Bathroom Equipment
+- Snacks to Share
+- Computer, Phone & Associated Chargers
+- Board/Card Games
+- Headphones
+- Instruments
+- Medications
+- Warm Clothes & Earplugs
+- Good Attitude
+- Anything else you need to survive the weekend

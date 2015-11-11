@@ -8,7 +8,7 @@ SESSIONS_URL=http://lanyrd.com/2015/campjsnews/schedule/481ea3897063c7d5.v1.json
 jade_files = $(patsubst %.jade,%.html,$(subst src/,,$(wildcard src/*.jade)))
 svgs = $(filter-out isologo.svg,$(subst src/svg/,,$(wildcard src/svg/*.svg)))
 
-default: svg css pages
+default: images css pages
 
 pages: clean_pages sessions.json $(jade_files)
 css: clean_css style.css
@@ -19,6 +19,9 @@ style.css:
 
 svg: $(svgs)
 	@${SVGO} --config=./.svgo.yml -i - -o - < src/svg/isologo.svg > src/images/isologo.svg
+	@cp src/images/* images/
+
+images: svg
 	@cp src/images/* images/
 
 $(jade_files):
