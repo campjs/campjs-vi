@@ -12,6 +12,7 @@ CampJS VI will commence at 3pm Friday on the 20th of November, and run through t
 
 The venue provides food, drink and comfortable accommodation for the duration of the event. You may camp on the grounds if that is your wish.
 
+<a name="what-to-bring"></a>
 ### What to bring?
 
 - Earplugs
