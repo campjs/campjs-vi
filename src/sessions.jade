@@ -15,6 +15,7 @@ block content
 			each session in group.sessions
 				if session.abstract
 					li.session
+
 						ul.speakers
 							each speaker in session.speakers
 								li.speaker
@@ -32,6 +33,9 @@ block content
 									li #[a(href="https://twitter.com/#{speaker.twitter.slice(1)}")= speaker.name]
 								else
 									li= speaker.name
+						| Location: #{session.space}
+						br
+						| Time: #{session.start_time.split(' ')[1]}
 
 						p !{session.abstract}
 
